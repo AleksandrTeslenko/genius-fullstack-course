@@ -2,8 +2,8 @@
 <html lang="uk">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Сучасна пекарня</title>
         <!-- Styles -->
         <link rel="stylesheet" href="./css/main.min.css" />
@@ -12,7 +12,7 @@
     <body>
         <header>
             <nav>
-                <a href="#">
+                <a href="./index.html">
                     <img src="./images/logo.svg" alt="Логотип сучасної пекарні"/>
                 </a>
                 <ul>
@@ -28,20 +28,21 @@
                     </li>
                 </ul>
             </nav>
-            <button class="header__button button modal-btn-open" type="button">Замовити дзвінок</button>
+            <button type="button">Замовити дзвінок</button>
         </header>
         <main>
             <section>
                 <h1>Сучасна пекарня</h1>
             </section>
-            <section>
+            <section id="traditions-section">
                 <ul>
                     <li>Великий попит на ринку</li>
                     <li>Доступні за бюджетом формати</li>
                     <li>Досвідчена управлінська команда</li>
                 </ul>
                 <h2>Новий формат традицій</h2>
-                <p><span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак
+                <p>
+                    <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак
                     традиційної випічки та натуральність інгредієнтів.
                 </p>
                 <p>Ми працюємо як найвідоміші мережі —
@@ -50,7 +51,7 @@
               </p>
               <img srcset="./images/baker-man.jpg 1x, ./images/baker-man@2x.jpg 2x" src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою"/>
             </section>
-            <section>
+            <section id="chefs-section">
                 <h2>Наші найкращі шеф-кухарі</h2>
                 <ul>
                     <li>
@@ -75,8 +76,30 @@
                     </li>
                   </ul>
             </section>
-            <section>
-
+            <section id="formats-section">
+                <h2>Формати</h2>
+                <ul>
+                    <li>
+                        <article>
+                        <h3 lang="en">Walrus</h3>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                        <h3 lang="en">Horseshoe</h3>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                        <h3 lang="en">Handlebar</h3>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section id="contact-section">
+                <h2>Приєднуйся до мережі пекарень</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1638708344112!2d30.48904481563916!3d50.456673094797736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1676051015463!5m2!1sru!2sua"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
         <footer>
@@ -119,6 +142,10 @@
                         </a>
                     </li>
                 </ul>
+                <a class="footer__address-link" href="#" target="_blank">
+                    Політика конфіденційності
+                </a>
+                <p class="footer__address-copyright">&copy; 2024 Дані захищені</p>
             </address>
         </footer>
     </body>
