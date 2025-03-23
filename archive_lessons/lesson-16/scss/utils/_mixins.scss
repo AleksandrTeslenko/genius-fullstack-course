@@ -1,0 +1,5 @@
+@mixin web_mixin($width, $height, $color){
+    width: $width;
+    height: $height;
+    background-color: $color;
+}
