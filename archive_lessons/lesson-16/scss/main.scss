@@ -1,32 +1,30 @@
 @import './utils/fonts';
-@import './utils/variables';
-@import './utils/utils';
 @import './utils/mixins';
+@import './utils/texts';
+@import './utils/utils';
+@import './utils/variables';
 
 @import './base';
 
-@import './components/buttons';
-@import './components/links';
-@import './components/header';
-@import './components/hero-section';
-@import './components/advantages-section';
-@import './components/address';
-@import './components/carousel';
-@import './components/chefs-section';
-@import './components/conctact-section';
-@import './components/footer';
-@import './components/form';
-@import './components/format-section';
-@import './components/modal';
-@import './components/section';
-@import './components/traditions-section';
+@import './layouts/advantages-section';
+@import './layouts/chefs-section';
+@import './layouts/conctact-section';
+@import './layouts/container';
+@import './layouts/footer';
+@import './layouts/form';
+@import './layouts/formats-section';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/modal';
+@import './layouts/section';
+@import './layouts/traditions-section';
 
-.container {
-  width: 100%;
-  max-width: 1288px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
+@import './components/address';
+@import './components/buttons';
+@import './components/carousel-button';
+@import './components/chef-card';
+@import './components/format-card';
+@import './components/links';
 
 .web_mixin_1 {
   @include web_mixin(100px, 50px, green);

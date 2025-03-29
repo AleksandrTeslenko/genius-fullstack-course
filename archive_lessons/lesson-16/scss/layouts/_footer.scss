@@ -1,0 +1,48 @@
+.footer {
+    padding: 32px 0;
+    position: relative;
+    background-color: var(--color-primary-dark);
+    background-image: url("../images/footer-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer::before,
+.footer::after {
+    position: absolute;
+    bottom: 0;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.footer::before {
+    left: 0;
+    background-image: url("../images/decor-bread-small.png");
+    width: 180px;
+    height: 120px;
+}
+
+.footer::after {
+    right: 0;
+    background-image: url("../images/decor-bread-large.png");
+    width: 380px;
+    height: 190px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav,
+.footer-address {
+    display: flex;
+    flex-basis: 50%;
+    gap: 20px;
+}
+
+.footer-logo,
+.footer-menu {
+    flex-grow: 1;
+}
